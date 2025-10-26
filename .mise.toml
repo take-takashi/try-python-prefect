@@ -1,0 +1,7 @@
+[tools]
+uv = "0.9.5"
+python = "3.13"
+
+[env]
+# 自動仮想環境（venv）を有効化したいなら
+_.python.venv = { path = ".venv", create = true }
