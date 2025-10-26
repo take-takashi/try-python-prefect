@@ -1,0 +1,8 @@
+{
+    // vscode-mise拡張で勝手に作られた
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+    // vscode-miseで`ebug.javascript.defaultRuntimeExecutable.pwa-node`を作らせないため（お試し）
+    "mise.configureExtensionsAutomaticallyIgnoreList": [
+        "ms-vscode.js-debug"
+    ]
+}
