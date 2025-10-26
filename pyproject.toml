@@ -1,0 +1,8 @@
+[project]
+name = "try-python-prefect"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "pandera[pandas]==0.26.1",
+    "prefect==3.4.25",
+]
